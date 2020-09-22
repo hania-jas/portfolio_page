@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: 'Philosopher', sans-serif;
+    height: 100vh;
 }
 
 .container {
