@@ -76,32 +76,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
-/* img {
-    height: 100px;
-    width: 190px;
-    position: absolute;
-    text-align: center;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.subtitle {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 140%;
-    text-align: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-} */
-
 .imgText {
     position: absolute;
     top: 0;
@@ -117,12 +91,6 @@ body {
     padding-left: 100px;
     padding-right: 100px;
 }
-
-
-/* .logo {
-    width: 50%;
-    margin-bottom: 20px;
-} */
 
 .imgText .subtitle {
     transition: 1s;
@@ -159,6 +127,3 @@ body {
 .profileContent h1 {
     color: lightseagreen;
 }
-
-
-/* icons styling */
