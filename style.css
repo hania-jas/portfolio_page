@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
 /* Master styles */
 
 body {
     margin: 0px;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .container {
@@ -93,6 +96,7 @@ body {
 }
 
 .imgText .subtitle {
+    margin-left: 18px;
     transition: 1s;
     font-weight: 600;
     color: transparent;
