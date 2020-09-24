@@ -131,3 +131,27 @@ body {
 .profileContent h1 {
     color: lightseagreen;
 }
+
+footer {
+    padding-top: 50px;
+}
+
+.emailAdress {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.footerContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.phoneNumber {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.phoneInfo {
+    text-align: right;
+    margin-right: 15px;
+}
