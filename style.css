@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@font-face {
+    font-family: 'Philosopher';
+    src: url(philosopher/Philosopher-Regular.ttf);
+}
+
 @media (max-width: 600px) {
     body {
         margin: 0px;
-        font-family: 'Philosopher', sans-serif;
+        font-family: 'Philosopher';
     }
     .container {
         display: grid;
