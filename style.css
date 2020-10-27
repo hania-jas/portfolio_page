@@ -128,13 +128,31 @@ footer {
     margin-left: 5px;
 }
 
+.portfolioItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.twoColumnsContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footerContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.phoneInfo {
+    text-align: right;
+    margin-right: 15px;
+}
+
 @media (max-width: 600px) {
     .portfolioItems {
-        display: grid;
         grid-template-columns: 1fr;
     }
     .twoColumnsContent {
-        display: grid;
         grid-template-columns: 1fr;
     }
     .profileContent p {
@@ -142,26 +160,10 @@ footer {
         text-justify: inter-word;
     }
     .footerContent {
-        display: grid;
         grid-template-columns: 1fr;
     }
-}
-
-@media (min-width: 600px) {
-    .portfolioItems {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .twoColumnsContent {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .footerContent {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
     .phoneInfo {
-        text-align: right;
-        margin-right: 15px;
+        text-align: unset;
+        margin-right: unset;
     }
 }
